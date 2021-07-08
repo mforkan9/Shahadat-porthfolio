@@ -1,0 +1,19 @@
+#Ionicwelcome {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+}
+.Ionicarea-carousel{
+    width: 80vw;
+    height: 35vh;
+    border-radius: 20px;
+    overflow: hidden;
+
+    img{
+        height: 35vh;
+        border-radius: 20px;
+    }
+}

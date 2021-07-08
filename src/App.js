@@ -1,11 +1,13 @@
+import { createContext, useState } from 'react';
 import './App.css';
 import Home from './components/Home/Home';
 
+export const ContextUser = createContext()
 function App() {
   return (
-    <div className=''>
+  <ContextUser.Provider>
       <Home></Home>
-    </div>
+   </ContextUser.Provider>
   );
 }
 
