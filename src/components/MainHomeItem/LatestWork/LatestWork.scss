@@ -1,0 +1,29 @@
+.latestBody{
+    margin-top: 50px;
+    height: 600px;
+
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 900;
+    }
+
+ .box{
+    height: 530px;
+    margin-top: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    .row{
+        
+        div{
+            margin-top: 10px;
+        }
+    }
+
+    img{
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+}

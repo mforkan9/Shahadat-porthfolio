@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../MainHomeItem/Header/Header';
 import Navbar from '../MainHomeItem/Navbar/Navbar';
 import Counter from '../CountEvent/Counter';
+import AboutSection from '../MainHomeItem/AboutSection/AboutSection';
+import LatestWork from '../MainHomeItem/LatestWork/LatestWork';
 
 
 const Home = () => {
@@ -10,20 +12,16 @@ const Home = () => {
             <Navbar></Navbar>
             <Header></Header>
             <Counter></Counter>
-            <h1>header</h1>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
-            <h3>fljsdklfjskd</h3>
+            <AboutSection></AboutSection>
+            <LatestWork></LatestWork>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
         </div>
     );
 };

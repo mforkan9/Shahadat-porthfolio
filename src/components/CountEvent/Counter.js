@@ -10,7 +10,7 @@ const Counter = () => {
             <div class="container box-area">
                 <div class="row">
                     <div class="col-md-4 col-4">
-                        <div class="counter-box "><i class="zmdi zmdi-archive"></i>
+                        <div class="counter-box "><i class="zmdi zmdi-archive mdc-text-green"></i>
                             <span class="counter">
                                 <CountUp start={0} end={100} delay={0}>
                                     {({ countUpRef }) => (
