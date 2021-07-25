@@ -1,0 +1,57 @@
+.footerMain{
+    margin-top: 80px;
+    background-color: #00008B;
+}
+
+.follow{
+    margin-top: 20px;
+    
+  h2{
+      font-family: fantasy;
+      color: white;
+  }
+  h4{
+      color: white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+      span{
+          font-size: 18px;
+      }
+  }
+  p{
+      color: white;
+  }
+
+}
+.follow2{
+    margin-top: 20px;
+    h2{
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+   h5{
+       color: white;
+      
+       a{
+           color: white;
+           text-decoration: none;
+       }
+   }
+}
+.form-section{
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    input{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;  
+    }
+    textarea{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+    }
+
+}

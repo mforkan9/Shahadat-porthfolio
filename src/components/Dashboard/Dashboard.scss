@@ -1,0 +1,29 @@
+.dashboard-main{
+    margin-top: 20px;
+    .toggle-info{
+        height: 400px;
+        overflow-y: scroll;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .row{
+        margin-top: 20px;
+
+        .row-item{
+            margin-bottom: 10px;
+
+            .row-item-inner{
+                display: block;
+                height: 160px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 30px 20px 37px;
+                text-align: center;
+                 border-radius: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
+    }
+
+}

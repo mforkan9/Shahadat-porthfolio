@@ -4,7 +4,7 @@ import './Counter.scss'
 
 const Counter = () => {
     return (
-        <div className="container main">
+        <div className="container main" id='achieve'>
             <h5 className='text-center '>Summary</h5>
             <h1 className='text-center title'>This is my work Count</h1>
             <div class="container box-area">
@@ -15,7 +15,7 @@ const Counter = () => {
                                 <CountUp start={0} end={100} delay={0}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            <span ref={countUpRef} />
+                                            <span ref={countUpRef} />+
                                         </div>
                                     )}
                                 </CountUp>
@@ -29,12 +29,12 @@ const Counter = () => {
                                 <CountUp start={0} end={150} delay={0}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            <span ref={countUpRef} />
+                                            <span ref={countUpRef} />+
                                         </div>
                                     )}
                                 </CountUp>
                             </span>
-                            <p>Total Case</p>
+                            <p>Total</p>
                         </div>
                     </div>
                     <div class=" col-md-4 col-4">
@@ -43,7 +43,7 @@ const Counter = () => {
                                 <CountUp start={0} end={120} delay={0}>
                                     {({ countUpRef }) => (
                                         <div>
-                                            <span ref={countUpRef} />
+                                            <span ref={countUpRef} />+
                                         </div>
                                     )}
                                 </CountUp>

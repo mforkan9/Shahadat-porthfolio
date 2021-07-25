@@ -7,15 +7,20 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.0.2",
     "cjs-module": "^1.5.0",
+    "firebase": "^8.8.0",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-copy-to-clipboard": "^5.0.3",
     "react-countup": "^4.4.0",
     "react-dom": "^17.0.2",
     "react-ionicons-icon": "^0.1.2",
+    "react-modal": "^3.14.3",
     "react-native-web": "^0.17.1",
     "react-particles-js": "^3.5.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-tsparticles": "^1.30.4",
     "tsparticles": "^1.30.4",
@@ -44,5 +49,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mforkan9/Shahadat-porthfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mforkan9/Shahadat-porthfolio/issues"
+  },
+  "homepage": "https://github.com/mforkan9/Shahadat-porthfolio#readme"
 }

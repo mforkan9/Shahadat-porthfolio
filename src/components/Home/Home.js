@@ -4,7 +4,7 @@ import Navbar from '../MainHomeItem/Navbar/Navbar';
 import Counter from '../CountEvent/Counter';
 import AboutSection from '../MainHomeItem/AboutSection/AboutSection';
 import LatestWork from '../MainHomeItem/LatestWork/LatestWork';
-
+import Footer from '../MainHomeItem/Footer/Footer';
 
 const Home = () => {
     return (
@@ -14,14 +14,7 @@ const Home = () => {
             <Counter></Counter>
             <AboutSection></AboutSection>
             <LatestWork></LatestWork>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
-            <h1>;fmsdfjksdjkfsadklfj;lsadf</h1>
+            <Footer></Footer>
         </div>
     );
 };

@@ -1,0 +1,32 @@
+.manage-main{
+ margin: 20px;
+
+ table{
+     border-collapse: separate;
+     border-spacing:  0px 15px;
+     tbody{
+
+        tr{
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+        img{
+            height: 100px;
+            width: 150px;
+            border-radius: 20px;
+        }
+     }
+     td{
+        button{
+           border: none;
+           background: red;
+           color: white;
+           border-radius: 20px;
+           height: 40px;
+           width: 80px;
+           margin-top: 30px;
+        }
+     }
+   }
+}
